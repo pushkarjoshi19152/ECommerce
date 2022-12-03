@@ -57,6 +57,7 @@
     font-weight: 600;
 }
 
+
 .store__btn a:hover{
     color: var(--primary-color);
 }
@@ -69,6 +70,12 @@
     .section__title{
         font-style: 1.7rem;
 
+    }
+    .counter__img{
+        display: none;
+    }
+    .count__down-col{
+        text-align: center;
     }
 }
 
@@ -84,33 +91,35 @@
     .buy__btn a{
         font-size: 0.9rem;
     }
+
+    .counter__img{
+        display: none;
+    }
+
+    
+    .count__down-col{
+        text-align: center;
+    }
 }
 
 .section__title{
     font-size: 1.4rem;
 }
 
-.counter__img{
-    display: none;
-}
 
-.clock__top-content{
-    text-align: center;
-}
 
-.clock__top-content h4{
+
+
+.clock__top-content h5{
     font-size: .9rem;
 
 }
 
-.clock__top-content h3{
+.clock__top-content h4{
     font-size: 1rem !important;
 }
 
-.count__down-col{
-    text-align: center;
-    display: inline-block;
-}
+
 
 @media only screen and (max-width: 576px){
     .hero__content {

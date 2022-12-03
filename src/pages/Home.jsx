@@ -86,16 +86,16 @@ const Home = () => {
           <Row>
             <Col lg='6' md='12' className='count__down-col'>
 
-            <div className="clock_top-content">
-              <h4 className='text-white fs-6 mb-2'>
-                Limited Offers
-              </h4>
-              <h3 className="text-white fs-5 mb-3">
-                Quality Armchair
-              </h3>
-            </div>
-              <Clock/>
-              <motion.button whileTap={{scale: 1.2}} className="buy__btn store__btn">
+              <div className="clock__top-content">
+                <h4 className='text-white fs-6 mb-2'>
+                  Limited Offers
+                </h4>
+                <h5 className="text-white fs-5 mb-3">
+                  Quality Armchair
+                </h5>
+              </div>
+              <Clock />
+              <motion.button whileTap={{ scale: 1.2 }} className="buy__btn store__btn">
                 <Link to="/shop">
                   Visit Store
                 </Link>
@@ -103,7 +103,7 @@ const Home = () => {
             </Col>
 
             <Col lg='6' md='12' className="text-end counter__img">
-              <img src={counterImg} alt=""/>
+              <img src={counterImg} alt="" />
             </Col>
           </Row>
         </Container>
@@ -115,8 +115,8 @@ const Home = () => {
             <Col lg='12' className='text-center mb-5'>
               <h2 className="section__title">New Arrivals</h2>
             </Col>
-            <ProductsList data= {mobileProducts}/>
-            <ProductsList data= {wirelessProducts}/>
+            <ProductsList data={mobileProducts} />
+            <ProductsList data={wirelessProducts} />
           </Row>
         </Container>
       </section>
@@ -127,12 +127,12 @@ const Home = () => {
             <Col lg='12' className='text-center mb-5'>
               <h2 className="section__title">Popular in Category</h2>
             </Col>
-            <ProductsList data= {popularProducts}/>
-            
+            <ProductsList data={popularProducts} />
+
           </Row>
         </Container>
       </section>
-          
+
     </Helmet>
   )
 }

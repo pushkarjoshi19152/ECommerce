@@ -8,7 +8,7 @@ const ProductsList = (props) => {
 
             {
                 props.data.map((item, index) => {
-                    return <ProductCard data={item}/>
+                    return <ProductCard item={item} key={index} />
                 })
 
             }

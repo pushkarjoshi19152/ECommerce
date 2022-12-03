@@ -7,7 +7,7 @@ import logo from '../../assets/images/eco-logo.png'
 
 const Footer = () => {
 
-  const year=new Date().getFullYear
+  const year=new Date().getFullYear();
   return <footer className='footer'>
     <Container>
       <Row>
@@ -79,17 +79,17 @@ const Footer = () => {
             <h4 className="quick__links-title">Contact</h4>
             <ListGroup className='footer__contact'>
               <ListGroupItem className='ps-0 border-0 d-flex align-item-center gap-2'>
-              <span><i class="ri-map-pin-line"></i></span>
+              <span><i className="ri-map-pin-line"></i></span>
               <p>123, Waghbajar, Pushpanagar, Aurangabad, Maharashtra</p>
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0 d-flex align-item-center gap-2'>
-              <span><i class="ri-phone-line"></i></span>
+              <span><i className="ri-phone-line"></i></span>
               <p>+91 1234567890</p>
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0 d-flex align-item-center gap-2'>
-              <span><i class="ri-mail-fill"></i></span>
+              <span><i className="ri-mail-fill"></i></span>
               <p>ecommerce.system@gmail.com</p>
               </ListGroupItem>
             </ListGroup>
